@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane prefHeight="600.0" prefWidth="1250.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.calculator6.WelcomeController">
+   <center>
+      <Button fx:id="welcome" mnemonicParsing="false" onAction="#welcomeButtonClicked" text="Welcome" BorderPane.alignment="CENTER">
+         <font>
+            <Font name="Bauhaus 93" size="36.0" />
+         </font>
+      </Button>
+   </center>
+</BorderPane>
